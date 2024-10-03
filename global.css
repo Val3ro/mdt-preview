@@ -1,0 +1,117 @@
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+main {
+	/* width: 50%;
+	height: 50%; */
+	margin: auto;
+	position: relative;
+	top: 30%;
+	transform: translateY(-50%);
+}
+body {
+	color: #333;
+	box-sizing: border-box;
+	font-family: 'Courier Prime', Courier, monospace;
+  	margin: 0;
+  	padding: 0;
+}
+
+a {
+	color: rgb(0,100,200);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: rgb(0,80,160);
+}
+
+label {
+	display: block;
+}
+
+/* input, button, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	-webkit-padding: 0.4em 0;
+	padding: 0.4em;
+	margin: 0 0 0.5em 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+ */
+input:disabled {
+	color: #ccc;
+}
+
+/* button {
+	color: #333;
+	background-color: #f4f4f4;
+	outline: none;
+}
+
+button:disabled {
+	color: #999;
+}
+
+button:not(:disabled):active {
+	background-color: #ddd;
+}
+
+button:focus {
+	border-color: #666;
+} */
+/* Styling scrollbars */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the vertical scrollbar */
+    height: 12px; /* Height of the horizontal scrollbar */
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #B69F7D; /* Handle color */
+    border-radius: 10px; /* Handle border radius */
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #926c52; /* Handle color on hover */
+  }
+
+  /* Handle on active */
+  ::-webkit-scrollbar-thumb:active {
+    background-color: #755c43; /* Handle color when clicked */
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent; /* Track color */
+    border-radius: 10px; /* Track border radius */
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .hide-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  input {
+	width: 50%;
+	padding: 5px;
+	border: 2px solid #B69F7D;
+	background: transparent;
+	color: #4B3827;
+	font-family: 'IM Fell English', serif;
+	outline: none;
+  }
+  
+  input::placeholder {
+	color: #B69F7D; /* Lighter text color for placeholder */
+  }
